@@ -4,3 +4,5 @@ Applicable only to NIE students :p .
 Automating the same using PyAutoGui.
 As there are delays on the server only automating the filling of the points,select the subject on your own :)
 As necessary for your screen resolution and no. of subjects, change the coordinates
+
+You can use Coord_finder.py to find where the coordinates point to
