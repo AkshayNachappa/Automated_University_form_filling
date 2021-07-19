@@ -21,7 +21,7 @@ def page_1():
     nextClick()
 # func for page 2
 def page_2():
-    for i in range(13):
+    for i in range(14):
         clickB()
     pag.press('tab')
     nextClick()
@@ -30,16 +30,16 @@ def page_3():
     # edit no of iterations depending upon no of subjects and remember to change
     # coordinates accordingly, generally just the Y Coordinate
     
-    for i in range(3):
+    for i in range(4):
         clickB()
     pag.press('tab')
     nextClick()
 
-moveandclick(1670,800)
-page_1()
-time.sleep(45)
 moveandclick(1670,860)
+page_1()
+time.sleep(3)
+moveandclick(1670,900)
 page_2()
-time.sleep(45)
-moveandclick(1720,835)
+time.sleep(3)
+moveandclick(1620,885)
 page_3()

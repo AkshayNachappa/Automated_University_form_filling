@@ -1,6 +1,6 @@
 import pyautogui as pag
 x_cord = 1750
-y_cord = 630
+y_cord = 680
 pag.moveTo(x_cord,y_cord)
 pag.leftClick(x_cord,y_cord)
 
